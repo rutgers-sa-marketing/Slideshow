@@ -1,0 +1,36 @@
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .prev{
+    font-size: 1.2rem;
+    display: inline-block;
+    background: #ccc;
+    padding: 10px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .next{
+      font-size: 1.2rem;
+    display: inline-block;
+    background: #ccc;
+    padding: 10px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .controls-container{
+    text-align: center;
+  }
